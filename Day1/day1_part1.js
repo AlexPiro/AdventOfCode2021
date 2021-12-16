@@ -1,7 +1,7 @@
 const fs = require('fs')
 
-var input1 = fs.readFileSync('inputExample').toString().split("\r\n").map(e => Number(e));
-var input2 = fs.readFileSync('input').toString().split("\r\n").map(e => Number(e));
+var input1 = fs.readFileSync('inputExample').toString().split("\n").map(e => Number(e));
+var input2 = fs.readFileSync('input').toString().split("\n").map(e => Number(e));
 
 
 function FindLargerThanpreviousMeasurement(input)
